@@ -1,5 +1,9 @@
 ---
 - name: Gather legacy and resource facts
+   roles:
+    - Juniper.junos
+   connection: local
+   gather_facts: no
   junos_facts:
     gather_subset: all
     gather_network_resources: all
