@@ -1,5 +1,5 @@
 ---
- - name: Gather legacy and resource facts
+ - name: Retrieve configuration from Junos devices
    roles:
     - Juniper.junos
    connection: local
